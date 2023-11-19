@@ -34,7 +34,7 @@ CMD ["python", "app.py"]
 4. Include codes in each `app.py` file
 5. Copy the [code](https://github.com/EugeneHsiung/docker_flask_homework/blob/main/Part2/Flask1/Dockerfile) in `Dockerfile` file
 6. Create a `docker-compose.yml` file
-7. Copy the code in `docker-compose.yml` file
+7. Copy the code in `docker-compose.yml` file:
 
 ```
 version: '3'
