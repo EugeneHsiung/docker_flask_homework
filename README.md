@@ -22,7 +22,7 @@ EXPOSE 5000
 CMD ["python", "app.py"]
 ```
 
-6. Type in `docker build -t <image name>` in google shell environment. Replace image name with what you want to build the image.
+6. Type in `docker build -t <image name> .` (edited 12/17, add a space and period after image name) in google shell environment. Replace image name with what you want to build the image.
 7. Type in `docker images` to view images
 8. Type in `docker run -p 5000:5000 <image name>` to run docker container. You are able to change the ports to whichever one. Make sure to also change the Google shell port environment
 9. Type in `docker ps` to view the list of containers
